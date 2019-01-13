@@ -9,10 +9,9 @@ import numpy as np
 import pandas as pd
 import tensorflow as tf
 from tensorflow.examples.tutorials.mnist import input_data
-import os
 
-path_train = '../input/train.csv'
-path_test = '../input/test.csv'
+path_train = "G:/MyGit/DeepLearning/train.csv"
+path_test = "G:/MyGit/DeepLearning/test.csv"
 
 train = pd.read_csv(path_train)
 test = pd.read_csv(path_test)
