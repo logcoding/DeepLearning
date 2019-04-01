@@ -1,0 +1,6 @@
+model_checkpoint_path: "my_test_model-99"
+all_model_checkpoint_paths: "my_test_model-19"
+all_model_checkpoint_paths: "my_test_model-39"
+all_model_checkpoint_paths: "my_test_model-59"
+all_model_checkpoint_paths: "my_test_model-79"
+all_model_checkpoint_paths: "my_test_model-99"

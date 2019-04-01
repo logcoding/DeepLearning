@@ -28,7 +28,7 @@ def nomalizing(array):
 
 def loadtraincsv():
     l = []
-    with open("train.csv") as file:
+    with open("mnist_train.csv") as file:
         lines = csv.reader(file)
         for line in lines:
             l.append(line)
@@ -40,7 +40,7 @@ def loadtraincsv():
 
 def loadtestcsv():
     l = []
-    with open("test.csv") as file:
+    with open("mnist_test.csv") as file:
         lines = csv.reader(file)
         for line in lines:
             l.append(line)
